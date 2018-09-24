@@ -26,3 +26,17 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.todo-list li {
+  list-style: none;
+}
+.todo-list ul {
+  text-align: left;
+  padding-left: 0;
+ }
+.todo-app {
+  padding-top: 30px;
+  text-align: left;
+  max-width: 200px;
+  margin: auto;
+}
